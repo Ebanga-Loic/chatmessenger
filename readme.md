@@ -1,42 +1,31 @@
 ###    CHAT MESSENGER | Firebase | MVVM | FCM | Navigation | Retrofit | Kotlin Coroutines | 
-####   Developed by Developer Samuel Akram © 2023 Follow <img src="./images/instagram.png" alt="Instagram Logo" width="20" height="20"> @samuelcodes
-####   Write me at dev.samakram@gmail.com 
+####   Développé par les développeurs Ebanga Loic et Nsea Bonaventure © 2023
+####   Ecrit moi ebangaarnaud@gmail.com
 
 
-
-#### App Demo
-
-![App Demo](./images/DEMO.gif)
-
-
-
-##### YouTube Tutorial: https://www.youtube.com/playlist?list=PLKETiCsEsH0qcOh5X1AgLHpJVvOLYTcau
-
-#### Features 
-1. Firebase Cloud Messaging (FCM) & Retrofit for Push notification
-2. Firestore 
-3. Navigation component 
-4. Two way databinding
-5. MVVM architecture 
-6. Kotlin coroutines 
-7. Firebase storage
+#### Caractéristiques 
+1. Firebase Cloud Messaging (FCM) et mise à niveau pour les notifications push
+2. Restauration de feu 
+3. Composant de navigation 
+4. Liaison de données bidirectionnelle
+5. Architecture MVVM 
+6. Coroutines Kotlin 
+7. Stockage Firebase
 
 
 
 
-#### Firebase Structure
+#### Structure de la base du projet
 
 Messages:
 ```
-Collection: Messages 
-   Document: chatroomid 
-       Collection: chats
-         Document: Timestamp
+Collection : Messages 
+   Document : chatroomid 
+       Collection : chats
+         Document : Horodatage
          
- For Chatroomid: generated a unique id by using the sort function to join sender's & receiver's id. The order of the unique id will remain
- same regardless of the sender or receiver while adding the document to collection
+Pour Chatroomid : généré un identifiant unique en utilisant la fonction de tri pour joindre l’identifiant de l’expéditeur et celui du destinataire. L’ordre de l’identifiant unique sera conservé quel que soit l’expéditeur ou le destinataire lors de l’ajout du document à la collection
        
-         
 ```
 
 
@@ -44,28 +33,28 @@ Collection: Messages
 
 #### Images 
 
-#### Login Screen 
+#### Écran de connexion 
 
 <div style="display: flex; flex-direction: row;">
   <img src="images/1.jpg" style="width: 200px; height: 400px;">
 </div>
 
 
-#### Home Screen 
+#### Écran d’accueil
 
 <div style="display: flex; flex-direction: row;">
   <img src="images/2.jpg" style="width: 200px; height: 400px;">
 </div>
 
 
-#### One on One Chat Screen 
+#### Écran de chat en tête-à-tête
 
 <div style="display: flex; flex-direction: row;">
   <img src="images/3.jpg" style="width: 200px; height: 400px;">
 </div>
 
 
-#### Setting Screen
+#### Écran de réglage
 
 <div style="display: flex; flex-direction: row;">
   <img src="images/6.jpg" style="width: 200px; height: 400px;">
@@ -74,7 +63,7 @@ Collection: Messages
 </div>
 
 
-#### Notifications 
+#### Notifications
 
 <div style="display: flex; flex-direction: row;">
   <img src="images/4.jpg" style="width: 200px; height: 400px;">
@@ -83,4 +72,4 @@ Collection: Messages
 
 
 
-##### Thank you
+##### Merci!!!!
